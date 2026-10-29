@@ -1,0 +1,1 @@
+export const DUMMY_PASSWORD_HASH = "$2b$12$Gcz85YR4eQOP5QMZRbMVVubyFJc3nZMGZwLumlpfpeYeeBOsoDen6";

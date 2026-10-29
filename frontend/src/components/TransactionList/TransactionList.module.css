@@ -1,0 +1,99 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.details strong {
+  overflow-wrap: anywhere;
+}
+
+.meta {
+  color: #64748b;
+  font-size: 13px;
+}
+
+.income,
+.expense {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.income {
+  color: #15803d;
+}
+
+.expense {
+  color: #b91c1c;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.actions button {
+  padding: 9px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  background: white;
+  color: #334155;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background: #f1f5f9;
+}
+
+.actions button:focus-visible {
+  outline: 3px solid #93c5fd;
+  outline-offset: 3px;
+}
+
+.actions .delete {
+  color: #b91c1c;
+  border-color: #fecaca;
+}
+
+.empty {
+  padding: 30px 0;
+  color: #64748b;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .item {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .actions {
+    width: 100%;
+  }
+
+  .actions button {
+    flex: 1;
+    min-height: 44px;
+  }
+}
