@@ -80,11 +80,9 @@ Node.js + Express
 ### 1. Clonar o repositório
 
 ```bash
-git clone URL_DO_REPOSITORIO
+git clone https://github.com/ricardohcoco/financeflow
 cd financeflow
 ```
-
-Substitua `URL_DO_REPOSITORIO` pelo endereço real após a publicação no GitHub.
 
 ### 2. Configurar as variáveis de ambiente
 
